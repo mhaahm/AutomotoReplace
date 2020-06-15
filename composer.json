@@ -1,0 +1,15 @@
+{
+    "name": "dell_pc/automoto-replacer",
+    "authors": [
+        {
+            "name": "mha",
+            "email": "moham.hassen@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {"AutomotoReplacer\\": "src/"}
+    }
+}
