@@ -9,7 +9,7 @@
 <div class="container pt-5">
 
     <div class="jumbotron">
-        <?php 
+        <?php
         if (isset($_POST['replacer']) && !empty($_POST['replacer'])) {
             $uploaddir = __DIR__ . '/../uploads/';
             if (!is_dir($uploaddir)) {
